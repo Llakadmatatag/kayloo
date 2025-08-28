@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayloo Rewards</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-links">
+                <a href="#" class="nav-link">Home</a>
+                <a href="#bonuses" class="nav-link">Bonuses</a>
+                <div class="logo-container">
+                    <img src="images/logo.png" alt="Kayloo Rewards" class="logo">
+                </div>
+                <a href="#" class="nav-link">Leaderboards</a>
+                <a href="https://kick.com/kayloo444" target="_blank" rel="noopener noreferrer" class="nav-link" id="liveStreamLink">
+                    Live Stream
+                    <span class="live-indicator offline" id="liveIndicator" title="Stream Status"></span>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="tagline">
+                        <div class="glitch" data-text="Kayloo">
+                            Kayloo
+                            <span aria-hidden="true">Kayloo</span>
+                            <span aria-hidden="true">Kayloo</span>
+                        </div>
+                        <div class="rewards-text">Rewards</div>
+                    </h1>
+                    <p class="sub-tagline">Stream - Gamble - Gaming - Rewarding - all in one place: <span class="highlight">Kayloo.GG</span></p>
+                    <div class="cta-buttons">
+                        <a href="#leaderboards" class="cta-button primary">
+                            <i class="fas fa-trophy"></i> View Leaderboards
+                        </a>
+                        <a href="https://discord.gg/your-community" target="_blank" class="cta-button secondary">
+                            <i class="fab fa-discord"></i> Join Community
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-stream">
+                    <div class="stream-container">
+                        <iframe 
+                            src="https://player.kick.com/kayloo444" 
+                            frameborder="0" 
+                            allowfullscreen 
+                            class="stream-iframe">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Leaderboard Section -->
+        <section id="leaderboards" class="leaderboards-section">
+            <div class="container">
+                <h2 class="section-title">Leaderboards</h2>
+                <div class="leaderboard-grid">
+                    <a href="https://skinclub.com" target="_blank" class="leaderboard-item">
+                        <div class="leaderboard-logo">
+                            <img src="images/skinclub.png" alt="SkinClub">
+                        </div>
+                        <div class="prizepool">$5,000</div>
+                    </a>
+                    <a href="https://hellcase.com" target="_blank" class="leaderboard-item">
+                        <div class="leaderboard-logo">
+                            <img src="images/hellcase.png" alt="Hellcase">
+                        </div>
+                        <div class="prizepool">$3,500</div>
+                    </a>
+                    <a href="https://daddyskins.com" target="_blank" class="leaderboard-item">
+                        <div class="leaderboard-logo">
+                            <img src="images/daddyskins-logo.webp" alt="DaddySkins">
+                        </div>
+                        <div class="prizepool">$4,200</div>
+                    </a>
+                    <a href="https://datdrop.com" target="_blank" class="leaderboard-item">
+                        <div class="leaderboard-logo">
+                            <img src="images/datdrop.png" alt="DatDrop">
+                        </div>
+                        <div class="prizepool">$2,800</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="bonuses" class="bonuses-section">
+            <div class="container">
+                <h2 class="section-title">Bonuses & Referral Code</h2>
+                <div class="partners-grid">
+                    <!-- SkinClub -->
+                    <div class="partner-card">
+                        <div class="partner-logo">
+                            <img src="images/skinclub-logo.svg" alt="SkinClub" class="partner-logo-img">
+                        </div>
+                        <h3>Skin.Club</h3>
+                        <p class="code-text">Code: <span class="referral-code">KAYLOO</span></p>
+                        <div class="bonuses-list">
+                            <p><i class="fas fa-gift"></i> Free Cases</p>
+                            <p><i class="fas fa-trophy"></i> Leaderboard</p>
+                        </div>
+                        <div class="partner-buttons">
+                            <a href="https://skinclub.com" target="_blank" class="cta-button primary">Sign Up</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Hell Case -->
+                    <div class="partner-card">
+                        <div class="partner-logo">
+                            <img src="https://hellcase.com/favicon.ico" alt="Hellcase" class="partner-logo-img">
+                        </div>
+                        <h3>Hellcase</h3>
+                        <p class="code-text">Code: <span class="referral-code">KAYLOO</span></p>
+                        <div class="bonuses-list">
+                            <p><i class="fas fa-gift"></i> Free Cases</p>
+                            <p><i class="fas fa-trophy"></i> Leaderboard</p>
+                        </div>
+                        <div class="partner-buttons">
+                            <a href="https://hellcase.com" target="_blank" class="cta-button primary">Sign Up</a>
+                        </div>
+                    </div>
+                    
+                    <!-- DaddySkins -->
+                    <div class="partner-card">
+                        <div class="partner-logo">
+                            <img src="images/daddyskins-logo.webp" alt="DaddySkins" class="partner-logo-img">
+                        </div>
+                        <h3>DaddySkins</h3>
+                        <p class="code-text">Code: <span class="referral-code">KAYLOO</span></p>
+                        <div class="bonuses-list">
+                            <p><i class="fas fa-gift"></i> Free Cases</p>
+                            <p><i class="fas fa-trophy"></i> Leaderboard</p>
+                        </div>
+                        <div class="partner-buttons">
+                            <a href="https://daddyskins.com" target="_blank" class="cta-button primary">Sign Up</a>
+                        </div>
+                    </div>
+                    
+                    <!-- DatDrop -->
+                    <div class="partner-card">
+                        <div class="partner-logo">
+                            <img src="images/datdrop-logo.png" alt="DatDrop" class="partner-logo-img">
+                        </div>
+                        <h3>DatDrop</h3>
+                        <p class="code-text">Code: <span class="referral-code">KAYLOO</span></p>
+                        <div class="bonuses-list">
+                            <p><i class="fas fa-gift"></i> Free Cases</p>
+                            <p><i class="fas fa-trophy"></i> Leaderboard</p>
+                        </div>
+                        <div class="partner-buttons">
+                            <a href="https://datdrop.com" target="_blank" class="cta-button primary">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Bagian 1: Logo dan Tagline -->
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="Kayloo Rewards" class="logo">
+                </div>
+                <p class="footer-tagline">Stream - Gamble - Gaming - Rewarding - all in one place: <span class="highlight">Kayloo.GG</span></p>
+            </div>
+
+            <!-- Bagian 2: Quick Links -->
+            <div class="footer-section">
+                <h3 class="footer-heading">Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#bonuses">Bonuses</a></li>
+                    <li><a href="#leaderboards">Leaderboards</a></li>
+                    <li><a href="#stream">Live Stream</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </div>
+
+            <!-- Bagian 3: Social Media -->
+            <div class="footer-section">
+                <h3 class="footer-heading">Connect With Us</h3>
+                <div class="social-links">
+                    <a href="https://kick.com/kayloo444" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Kick.com">
+                        <i class="fab fa-kickstarter"></i>
+                    </a>
+                    <a href="https://twitter.com/kayloBET" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://discord.gg/kayloorewards" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Discord">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                    <a href="https://youtube.com/kayloorewards" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Bagian 4: Responsible Gambling -->
+            <div class="footer-section">
+                <h3 class="footer-heading">Responsible Gambling</h3>
+                <div class="gambling-warning">
+                    <p>Gambling can be addictive. Please play responsibly.</p>
+                    <p>You must be 18+ to participate.</p>
+                    <div class="age-restriction">18+</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bawah -->
+        <div class="footer-bottom">
+            <div class="footer-container">
+                <p>&copy; 2025 Kayloo Rewards. All rights reserved.</p>
+                <p>Designed by <a href="https://twitter.com/llakadmatatag" target="_blank" class="designer-credit">@Llakadmatatag</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
